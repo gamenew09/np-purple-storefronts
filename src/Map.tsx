@@ -446,7 +446,7 @@ function StorefrontMarker({storefront, category, map, isEditMode, allCategories,
     }
     console.log(data);
     setStorefrontImages(data);
-  }, []);
+  }, [storefront]);
 
   const onPopupOpen = useCallback(() => {
     // TODO: Caching?
