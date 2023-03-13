@@ -16,6 +16,15 @@ import { findIconDefinition, parse } from "@fortawesome/fontawesome-svg-core";
 import DialogStyled from "./components/Dialog";
 import { Dialog } from "@headlessui/react";
 import { PostgrestSingleResponse } from "@supabase/supabase-js";
+import defaultIconRetinaUrl from "leaflet/dist/images/marker-icon-2x.png";
+import defaultIconUrl from "leaflet/dist/images/marker-icon.png";
+import defaultShadowUrl from "leaflet/dist/images/marker-shadow.png";
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: defaultIconRetinaUrl,
+  iconUrl: defaultIconUrl,
+  shadowUrl: defaultShadowUrl
+});
 
 function assertJsonLocation(locationJson: Json): L.LatLngExpression {
     console.assert(typeof locationJson === "object");
