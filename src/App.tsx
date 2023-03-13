@@ -83,13 +83,14 @@ function LoggedInTopbar({session}: {session: Session}) {
 
 function LoggedOutTopbar() {
   const supabase = useSupabaseClient<Database>();
-  
+
   const handleClick = useCallback<React.MouseEventHandler>((ev) => {
     supabase.auth.signInWithOAuth({
       provider: 'discord',
       options: {
-        scopes: 'identify email'
-      }
+        scopes: 'identify email',
+        redirectTo: new URL('../', import.meta.url).toString(),
+      },
     })
   }, [supabase]); 
   return <button className='btn btn-ghost' onClick={handleClick}>Login</button>
