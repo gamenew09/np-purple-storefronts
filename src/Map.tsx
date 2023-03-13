@@ -640,7 +640,7 @@ export default function Map({resetView, storefronts, categories, isEditMode, edi
     <MapContainer ref={mapReference} id='map' center={[0,0]} minZoom={1} maxZoom={7} zoom={2} zoomControl={false} className='h-screen w-screen absolute top-0 left-0 z-0' doubleClickZoom={false}>
       <TileLayer
         attribution='&copy; San Andreas Radar Map by <a href="https://aothsa.com/gtav-fivem-map-mods/">DieLikeKane</a>, Adopted from <a href="https://github.com/skyrossm/np-gangmap">np-gangmap</a> | Location icons created by IconMarketPK - Flaticon, slightly modified'
-        url={`/tiles/atlas/{z}/{x}_{y}.png`}
+        url={`${import.meta.env.BASE_URL}tiles/atlas/{z}/{x}_{y}.png`}
         noWrap={true}
       />
       <LayersControl position='topleft'>
