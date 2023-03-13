@@ -37,15 +37,12 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
-      - name: Use variables
-        run: |
-          echo "supabase url : ${{ vars.VITE_REACT_APP_SUPABASE_URL }}"
-          echo "anon key : ${{ vars.VITE_REACT_APP_SUPABASE_ANON_KEY }}"
       - name: Build
         run: npm run build
         env:
           VITE_REACT_APP_SUPABASE_URL: ${{ vars.VITE_REACT_APP_SUPABASE_URL }}
           VITE_REACT_APP_SUPABASE_ANON_KEY: ${{ vars.VITE_REACT_APP_SUPABASE_ANON_KEY }}
+          VITE_DOMAIN_BASE: ${{ vars.VITE_DOMAIN_BASE }}
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact

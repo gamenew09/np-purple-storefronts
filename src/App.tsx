@@ -89,7 +89,7 @@ function LoggedOutTopbar() {
       provider: 'discord',
       options: {
         scopes: 'identify email',
-        redirectTo: new URL('../', import.meta.url).toString(),
+        redirectTo: `${import.meta.env.VITE_DOMAIN_BASE}${import.meta.env.BASE_URL}`,
       },
     })
   }, [supabase]); 
