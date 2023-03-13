@@ -1,0 +1,517 @@
+[
+	{
+		"type": "Automotive",
+		"title": "The Pit Stop Minimart",
+		"notes": "A mini-mart that sells Tire Repair Kits, Local Car Parts, Car Polish, Lard Car Polish, First Aid Kits, and Radios!",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -66.589, "lng": -34.667}
+		],
+		"images": [
+			{
+				"headline": "Frontside",
+				"darkText": false,
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/jX4O6nS.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "O'Scotty Auto Parts",
+		"notes": "A small shop that offers Advanced, Regular, Body, and Tire Repair Kits alongside Imported Performance Parts for your vehicle!",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -68.417, "lng": -5.596}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"credits": "Elena Crescent",
+				"url": "https://i.imgur.com/CCA81ry.png"
+			}
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "Ottos Automotive",
+		"notes": "A tool shop that offers First Aid Kits, Tire Repair Kit, and Body Repair Kits branded in their iconic blue.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -64.266, "lng": 8.090}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"darkText": false,
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/whD38Pr.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "Mirror Park Minimart",
+		"notes": "A minimart that offers ERP Radios, Healing Lip Balms, Tire Pumps, Lard Polish, 3 Day Polish, and a limited quantity \"FIRST\" Plate collectible!",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue546",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -57.866, "lng": 19.073}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"darkText": false,
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/CYkgMjv.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Restaurant",
+		"title": "Shinto",
+		"notes": "A Japanese restaurant serving sushi, noodles, sashimi, nigiri, soups, sides, deserts, drinks, and more! You are able to dine in at a table or reserve a private room for eating!",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\uea64",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -64.240, "lng": -55.522}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Chris Robin",
+				"url": "https://i.imgur.com/2AbFyPe.jpg"
+			}
+		]
+	},
+	{
+		"type": "Coffee Shop",
+		"title": "Sugar & Spice",
+		"notes": "A cafe that sells spiced baked goods, drinks, and coffee.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\uea53",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -59.105, "lng": 19.129}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/3m4UObQ.jpeg"
+			}
+		]
+	}, 
+	{
+		"type": "Restaurant",
+		"title": "The Mojito Inn",
+		"notes": "A chill tavern offering a multitude of food and drinks.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": 76.491, "lng": -18.453}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"credits": "Elena Crescent",
+				"url": "https://i.imgur.com/HWbec7o.jpg"
+			}
+		]
+	},
+	{
+		"type": "Coffee Shop",
+		"title": "Sweet Tooth",
+		"notes": "A food establishment that has breakfast items along with some outliers, including, but not limited to, Kebabs, Sandwiches, and Chips.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\uea54",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -52.542, "lng": -30.955}
+		],
+		"images": [
+			{
+				"headline": "Frontside of Sweet Tooth",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/NpjtqQy.jpeg"
+			}
+		]
+	},
+	{
+		"type": "General",
+		"title": "S&M",
+		"notes": "A BDSM shop that offers handcuffs, masquerade masks, condoms, message oil, feather ticklers, paddles, whips, and flowers for aftercare.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -70.326, "lng": -5.222}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/t2IEaVl.jpeg"
+			}
+		]
+	},
+	{
+		"type": "General",
+		"title": "J's Player Card Collection",
+		"notes": "A spot to grab card packs that include your favorite Purple county residents!",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue41d",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -68.223, "lng": -8.266}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Chris Robin",
+				"url": "https://i.imgur.com/UZfefPC.jpg"
+			}
+		]
+	},
+	{
+		"type": "Jewelry",
+		"title": "City Gallery",
+		"notes": "A jewlery storefront that sells Jade Healing Stones and cosmetic rings, such as engagement rings. They also can buy gems.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\uead5",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -56.229, "lng": -8.827}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"credits": "Elena Crescent",
+				"url": "https://i.imgur.com/cM5l7Ew.jpg"
+			}
+		]
+	},
+	{
+		"type": "General",
+		"title": "Great Ocean Minimart",
+		"notes": "A racing focused storefront selling healing balms, customized radios, and plushies.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue546",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -58.492, "lng": -73.643}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"credits": "Elena Crescent",
+				"url": "https://i.imgur.com/fWGkSVE.jpg"
+			}
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "Sandy Shores Gas Station Storefront",
+		"notes": "A storefront that offers radios, repair kits, and first aid kits on-the-go!",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue546",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": 42.377, "lng": 42.945}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Chris Robin",
+				"url": "https://i.imgur.com/mkJP2fk.jpg"
+			}
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "Strawberry Mini Mart",
+		"notes": "A meth-lab inspired storefront that offers Blue Sky MedKit, Walkie-Talkie Burner Phones, 3 Day Car Polish, Quality & Disposable Car Parts.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue546",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -69.997, "lng": -6.529}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/0KerBpt.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Smoke Shop",
+		"title": "Hookah Palace",
+		"notes": "A smoking oriented storefront that offers healing Snus, Weighed Hookah Tobacco, bongs, and flavored hookahs for stress relief.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -67.010, "lng": -14.802}
+		],
+		"images": [
+			{
+				"headline": "Outside",
+				"credits": "Elena Crescent",
+				"url": "https://i.imgur.com/YI9y4cQ.jpg"
+			}
+		]
+	},
+	{
+		"type": "Agriculture",
+		"title": "The Grain of Truth",
+		"notes": "A farmer focused shop offering ingredients, coffee, branded Watering Cans, and branded Hoes for farmers!",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\uea79",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -58.232, "lng": -55.945}
+		],
+		"images": [
+			{
+				"headline": "Outside of The Grain of Truth",
+				"credits":"Roy Wilson",
+				"url": "https://i.imgur.com/BeEdnUd.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Materials",
+		"title": "Tom & Hobbler's Containers: A Hobbler's Materials Company",
+		"notes": "A material company that allows people to quickly buy converted materials in a simplified place.",
+		"wiki_link": "",
+		"order": 0,
+		"codePointIcon": "\ue760",
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -81.822, "lng": -7.434}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/0kSDp9R.png"
+			}
+		]
+	},
+	{
+		"type": "Outdoor & Survival",
+		"title": "Blue Star Outdoors",
+		"notes": "An outdoor themed store that sells peppermint mocha coffee, blue & green lawn chairs, and Umbrellas.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0000FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -18.413, "lng": -58.516}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/vaOvDOS.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Hardware & Tools",
+		"title": "NG Hardware Store",
+		"notes": "A hardware store themed around the color orange which sells lockpicks, paint thinner, trowels, heavy cutters, heavy duty drills, and coffee.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -59.231, "lng": -53.165}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/ssxCvMZ.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Hardware & Tools",
+		"title": "O'deas",
+		"notes": "A general store that specializes in hardware specific items such as paint thinner, caffeine tablets, heavy duty drills, prop toolboxes, and mailboxes.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -29.577, "lng": -106.451}
+		],
+		"images": [
+			{
+				"headline": "Front",
+				"credits": "Roy Wilson",
+				"url": "https://i.imgur.com/CJBWz37.jpeg"
+			}
+		]
+	},
+	{
+		"type": "Outdoor & Survival",
+		"title": "Vespucci Beach Patrol Department",
+		"notes": "A store specializing in beach related goods, these include VPD healing sunblock, pail & shovels, NPX 200, trowel, and animal plushies.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -72.368, "lng": -53.184}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Dispensary",
+		"title": "Dollar Pills",
+		"notes": "A dispensary with direct THC injections and chill pill. They also offer empty pill bottles and caffeinated green liquid, or \"The Tea,\" in a test tube.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -65.500, "lng": -35.177}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Automotive",
+		"title": "MackWheels Automotive",
+		"notes": "An automotive focused shop that sells 3 Day Waxes, Tire Repair Kits, Repair Kits, Mechanic Kits, Coffee, and collectable keychains.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -64.515, "lng": 18.273}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Agriculture",
+		"title": "San Andreas Beekeeper Society",
+		"codePointIcon": "\uea1c",
+		"notes": "A nature themed storefront that sells Healing Salves, Beehives, Beeswax, and collectable Beeswax Candles.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": 15.053, "lng": -47.350}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Electronics",
+		"title": "The Rat Shack",
+		"notes": "A small electronics shop that sells radios and VPNs.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -58.624, "lng": -54.089}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Hardware & Tools",
+		"title": "Nailed It Hardware",
+		"notes": "Sells advanced & regular lock picks, coffee, Drills, Heavy Cutters, Paint Thinner, Heavy Duty Drill, Screwdrivers, Trowels, and the Pail & Shovel.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -70.767, "lng": -47.720}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Hardware & Tools",
+		"title": "O'Sullivans Hardware",
+		"notes": "Sells numerous hardware equipment and some general products such as the Trowel, Notepad, Heavy Duty Drill, Hair Tie, Paint Thinner, Advanced & Regular Lock Pick, Drill, Heavy Cutters, Toolbox, Mailbox, and Coffee.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -74.611, "lng": -9.905}
+		],
+		"images": [
+			
+		]
+	},
+	{
+		"type": "Dispensary",
+		"title": "Wake n' Bake",
+		"notes": "Sells the Forget Me Not and Rose Petal joints, Empty Baggies, Daisy Cigarettes, Cigars, High Quality Scales, and Healing Marigold CBD Tinctures.",
+		"wiki_link": "",
+		"order": 0,
+		"strokecolor": "0080FF",
+		"fillcolor": "0080FF",
+		"latlngarray": [
+			{"lat": -72.237, "lng": -12.153}
+		],
+		"images": [
+			
+		]
+	}
+]
