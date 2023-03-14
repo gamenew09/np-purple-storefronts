@@ -222,11 +222,13 @@ function StorefrontImageModifyModal({image, storefront, onClose, open, modifyMod
     }
 
     // I'm considering using buckets instead because of the way we are checking the image url.
+    /* 
+    // Doesn't work since we are trying to do a cross-origin request, oops.
     try {
       const http = await httpGetPromise(newImageUrl);
     } catch (error) {
       throw "Image seems to be invalid."
-    }
+    } */
 
     
     if(/^$/.exec(newDescription ?? "")) {
