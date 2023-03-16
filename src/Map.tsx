@@ -434,6 +434,8 @@ function StorefrontMarker({storefront, category, map, isEditMode, allCategories,
 
   const [storefrontImages, setStorefrontImages] = useState<StorefrontImageRow[]>();
 
+  const [isMarkerOpen, setIsMarkerOpen] = useState(false);
+
   const supabase = useSupabaseClient<Database>();
 
   const onMarkerClick = useCallback((ev: L.LeafletMouseEvent) => {
@@ -459,17 +461,24 @@ function StorefrontMarker({storefront, category, map, isEditMode, allCategories,
     setStorefrontImages(data);
   }, [storefront]);
 
+  useEffect(() => {
+    if(isMarkerOpen) {
+      // TODO: Caching?
+      retrieveImages().catch((reason) => {
+        setStorefrontImages(undefined);
+        toast.error(`Failed to load images for ${storefront.title ?? storefront.id}: ${reason}`)
+      });
+    } else {
+      setIsEditingStorefront(false);
+    }
+  }, [isMarkerOpen])
+
   const onPopupOpen = useCallback(() => {
-    // TODO: Caching?
-    retrieveImages().catch((reason) => {
-      setStorefrontImages(undefined);
-      toast.error(`Failed to load images for ${storefront.title ?? storefront.id}: ${reason}`)
-    });
-  }, []);
+    setIsMarkerOpen(true);
+  }, [retrieveImages]);
 
   const onPopupClose = useCallback(() => {
-    console.log("close")
-    setIsEditingStorefront(false);
+    setIsMarkerOpen(false);
   }, []);
 
   const markerRef = useRef<L.Marker>(null);
