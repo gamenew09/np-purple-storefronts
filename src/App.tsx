@@ -233,7 +233,7 @@ function CreateStorefrontDialog({onSubmit, open, categories, onClose}: CreateSto
 
   return <DialogStyled open={open} onClose={onClose} title='Create New Storefront' description='Enter in the following form to create a new storefront.'>
     {
-      error !== undefined ? (<div className="alert alert-error shadow-lg">
+      error !== undefined ? (<div  key={4} className="alert alert-error shadow-lg">
       <div>
         <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
         <span>Error! {error}</span>
@@ -258,8 +258,8 @@ function CreateStorefrontDialog({onSubmit, open, categories, onClose}: CreateSto
       <textarea ref={descriptionInput} placeholder='Cool Storefront is a storefront that sells cool items for the citizens of San Andreas.' className='textarea textarea-bordered'></textarea>
     </InputGroup>
     <div className='modal-action'>
-      <button className='btn' onClick={onClose}>Cancel</button>
-      <button className='btn btn-primary' onClick={onSubmitInternal}>Submit</button>
+      <button key={0} className='btn' onClick={onClose}>Cancel</button>
+      <button key={1} className='btn btn-primary' onClick={onSubmitInternal}>Submit</button>
     </div>
   </DialogStyled>
 }
@@ -324,8 +324,6 @@ function App() {
   }, []);
 
   useEffect(() => {
-    buildSeedQueries(supabase);
-
     refreshMap();
   }, []);
 

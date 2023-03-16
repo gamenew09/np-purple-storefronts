@@ -378,7 +378,7 @@ function StorefrontImageCarousel({images, editing, storefront, refreshImages}: {
         }
       };
 
-      return <div id={`slide-${index}`} className="carousel-item relative w-full">
+      return <div id={`slide-${index}`} key={index} className="carousel-item relative w-full">
         <div className="flex flex-col">
           <img src={image.image_url ?? ""} className="w-full cursor-zoom-in" onClick={(ev) => {
             ev.stopPropagation();
@@ -418,7 +418,7 @@ function StorefrontImageCarousel({images, editing, storefront, refreshImages}: {
     })}
   </div>
   <div className="flex justify-center w-full py-2 gap-2">
-    {images.map((image, index) => (<a href={`#slide-${index}`} className="btn btn-xs">{index + 1}</a>))}
+    {images.map((image, index) => (<a href={`#slide-${index}`} key={index} className="btn btn-xs">{index + 1}</a>))}
     {editing ? (<a href={`#add-slide`} className="btn btn-xs btn-success" onClick={(ev) => {
       ev.stopPropagation();
       ev.preventDefault();
